@@ -1,25 +1,22 @@
-# Student Sleep, Activity & Energy Analysis 📊
+# Student Sleep, Activity & Energy Analysis 
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes how **daily physical activity (steps)** and **overnight sleep duration** impact a student’s **energy, focus, mood, and stress levels**.  
 The objective is to identify the **optimal “sweet spot”** for sleep and steps that maximizes daily energy and productivity.
 
 ---
-
-## 🎯 Research Question
+## Research Question
 > How do small changes in a student's daily activity (steps) and overnight sleep affect their next-day focus and energy levels?
 
 ---
-
-## 🧠 Key Objectives
+## Key Objectives
 - Analyze the relationship between **sleep duration and energy level**
 - Study how **steps per day** affect **energy, mood, focus, and stress**
 - Identify the **optimal range (sweet spot)** for sleep and steps
 - Quantify **energy loss** when students deviate from the ideal lifestyle
 
 ---
-
-## 📂 Dataset Description
+## Dataset Description
 The dataset includes self-reported student data with the following key variables:
 - Steps per Day
 - Sleep Duration (last night)
@@ -33,8 +30,7 @@ The dataset includes self-reported student data with the following key variables
 Data cleaning and encoding were performed before analysis (binary encoding, categorical mapping, and feature engineering). :contentReference[oaicite:0]{index=0}
 
 ---
-
-## 🔍 Methodology
+## Methodology
 - **Data Cleaning & Encoding**
   - Binary encoding (Yes/No → 1/0)
   - Sleep goal feature creation (≥7 hours)
@@ -50,8 +46,7 @@ Data cleaning and encoding were performed before analysis (binary encoding, cate
   - Weekly energy loss calculation
 
 ---
-
-## 📈 Key Findings
+## Key Findings
 - Sleep duration has a **strong positive correlation** with energy and focus
 - Steps per day show a **non-linear relationship** with energy
 - Optimal daily activity is around **~9,800–10,000 steps**
@@ -60,7 +55,7 @@ Data cleaning and encoding were performed before analysis (binary encoding, cate
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 - Python
 - Google Colab
 - Pandas, NumPy
@@ -68,13 +63,19 @@ Data cleaning and encoding were performed before analysis (binary encoding, cate
 - Scikit-learn
 
 ---
-
-## 📊 Visualizations
+## Visualizations
 - Scatter plots (Steps vs Energy, Sleep vs Energy)
 - Regression trend lines
 - Bar charts (Sleep Goal vs Stress & Mood)
 - Marginal benefit and sweet spot graphs
 
 ---
+## Conclusion
+Maintaining an optimal balance of **adequate sleep and moderate physical activity** significantly improves student energy, focus, and emotional well-being.  
+This analysis provides data-driven evidence for healthier daily routines.
 
-## 📁 Repository Structure
+---
+## Future Scope
+- Include wearable device data
+- Apply time-series analysis
+- Build a predictive dashboard (Power BI / Tableau)
