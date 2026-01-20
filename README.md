@@ -73,9 +73,3 @@ Data cleaning and encoding were performed before analysis (binary encoding, cate
 ## Conclusion
 Maintaining an optimal balance of **adequate sleep and moderate physical activity** significantly improves student energy, focus, and emotional well-being.  
 This analysis provides data-driven evidence for healthier daily routines.
-
----
-## Future Scope
-- Include wearable device data
-- Apply time-series analysis
-- Build a predictive dashboard (Power BI / Tableau)
